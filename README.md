@@ -1,6 +1,6 @@
 # BareMetal-GPIO-Driver
 Register-level GPIO driver for STM32F446RE ARM Cortex-M4, developed in Embedded C with GPIO configuration, digital I/O, alternate functions, EXTI interrupts, and NVIC support.
-# STM32F407 Register-Level GPIO Driver
+# STM32F446xx Register-Level GPIO Driver
 
 A reusable **bare-metal GPIO device driver** developed for the **STM32F446RE ARM Cortex-M4** microcontroller using **Embedded C**.
 
