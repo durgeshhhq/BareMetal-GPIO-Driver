@@ -76,7 +76,7 @@ The driver is implemented using direct memory-mapped register access without dep
               |
               v
 +-----------------------------+
-|        STM32F407 MCU        |
+|        STM32F446 MCU        |
 +-----------------------------+
 ```
 
@@ -129,7 +129,7 @@ GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_12, GPIO_PIN_SET);
 
 ## EXTI Interrupt Support
 
-The driver supports GPIO external interrupts through the STM32F407 EXTI controller.
+The driver supports GPIO external interrupts through the STM32F446 EXTI controller.
 
 ```text
 GPIO Pin
@@ -160,7 +160,7 @@ The driver also provides NVIC interrupt enable/disable and priority configuratio
 
 ## Register-Level Implementation
 
-The project defines peripheral register structures and maps them to the STM32F407 peripheral base addresses.
+The project defines peripheral register structures and maps them to the STM32F446 peripheral base addresses.
 
 For example:
 
